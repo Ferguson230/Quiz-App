@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deedat.quizapp.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="#ffffffff"
+        android:layout_margin="25dp"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="12dp"
+        card_view:cardElevation="3dp"
+        card_view:contentPadding="4dp"
+        card_view:contentPaddingBottom="32dp"
+        android:foreground="?android:selectableItemBackground"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            style="@style/InputName"
+            android:id="@+id/name_field"
+            android:hint="@string/Name"
+             />
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/instruction_text_view"
+            android:text="@string/Instruction"
+            />
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/one_text_view"
+            android:text="@string/Question1"
+             />
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:id="@+id/rg1"
+            >
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/congo_radio_button"
+                android:text="@string/CongoRiver"
+                />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/niger_radio_button"
+                android:text="@string/NigerRiver"
+                />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/nile_radio_button"
+                android:text="@string/RiverNile"
+                 />
+
+
+        </RadioGroup>
+
+
+            <TextView
+                style="@style/TextView"
+                android:id="@+id/two_text_view"
+                android:text="@string/Question2"
+                 />
+
+            <EditText
+                style="@style/Input"
+                android:id="@+id/answer_field"
+                android:hint="@string/Input"
+                 />
+
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/three_text_view"
+            android:text="@string/Question3"
+            />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/kwame_checkbox"
+            android:text="@string/KwameNkrumah"
+             />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/chinua_checkbox"
+            android:text="@string/ChinuaAchibe"
+             />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/mandela_checkbox"
+            android:text="@string/NelsonMandela"
+             />
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/four_text_view"
+            android:text="@string/Question4"
+             />
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:id="@+id/rg2"
+            >
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/coast_radio_button"
+                android:text="@string/IvoryCoast"
+                 />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/ghana_radio_button"
+                android:text="@string/Ghana"
+                 />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/indonesia_radio_button"
+                android:text="@string/Indonesia"
+                 />
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/five_text_view"
+            android:text="@string/Question5"
+             />
+
+        <EditText
+            style="@style/Input"
+            android:id="@+id/highest_answer_field"
+            android:hint="@string/Type"
+             />
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/six_text_view"
+            android:text="@string/Question6"
+             />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/spain_checkbox"
+            android:text="@string/Spain"
+             />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/germany_checkbox"
+            android:text="@string/Germany"
+             />
+
+        <CheckBox
+            style="@style/CheckBox"
+            android:id="@+id/netherlands_checkbox"
+            android:text="@string/Netherlands"
+             />
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/seven_text_view"
+            android:text="@string/Question7"
+             />
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:id="@+id/rg3"
+            >
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/oprah_radio_button"
+                android:text="@string/OprahWinfrey"
+                 />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/smith_radio_button"
+                android:text="@string/RobertSmith"
+                 />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/dangote_radio_button"
+                android:text="@string/AlikoDangote"
+                 />
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/eight_text_view"
+            android:text="@string/Question8"
+             />
+
+        <EditText
+            style="@style/Input"
+            android:id="@+id/type_field"
+            android:hint="@string/Answer"
+             />
+
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/nine_text_view"
+            android:text="@string/Question9"
+             />
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:id="@+id/rg4"
+            >
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/pele_radio_button"
+                android:text="@string/AbediPele"
+                 />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/george_radio_button"
+                android:text="@string/GeorgeWeah"
+                />
+
+            <RadioButton
+                style="@style/RadioButton"
+                android:id="@+id/samuel_radio_button"
+                android:text="@string/SamuelEto"
+                 />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:id="@+id/ten_text_view"
+            android:text="@string/Question10"
+             />
+
+        <EditText
+            style="@style/Input"
+            android:id="@+id/ten_field"
+            android:hint="@string/TypeAnswer"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+        <Button
+            style="@style/Submit"
+                android:id="@+id/sb"
+                android:text="@string/submit"
+                 />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
